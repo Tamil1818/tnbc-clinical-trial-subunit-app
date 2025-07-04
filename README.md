@@ -45,7 +45,7 @@ Hosted via Streamlit Cloud
 
 ## 🚀 How to Run Locally
 
-```bash
+``bash
 # Clone the repo
 git clone https://github.com/Tamil1818/tnbc-kg-app-1.git
 cd tnbc-kg-app-1
