@@ -4,9 +4,12 @@ first version
 
 Welcome to the **TNBC Clinical Trials Subunit**, part of the larger **TNBC Knowledge Graph (KG Genie)** platform. This Streamlit app allows researchers, clinicians, and data scientists to explore **clinical trials**, **biotech/chemical drug classes**, **biomarkers**, and **targeted therapies** related to **Triple-Negative Breast Cancer (TNBC)**.
 
-🔗 **Live App**: [tnbc-clinical-trial-subunit.streamlit.app](https://tnbc-clinical-trial-subunit.streamlit.app)
-📦 **Source Code**: [GitHub Repo](https://github.com/Tamil1818/tnbc-kg-app-1)
----
+🧬 **Live TNBC Clinical Trials Explorer App**  
+Hosted via Streamlit Cloud  
+🔗 https://tnbc-kg-app-1-5mwj7narjjdddmaawlnylp.streamlit.app  
+(shortlink: https://bit.ly/tnbc-clinical-kg)
+
+📁 Source code: [GitHub Repo](https://github.com/Tamil1818/tnbc-kg-app-1)
 
 ## 🧠 What This App Does
 
