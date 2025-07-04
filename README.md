@@ -1,45 +1,59 @@
 # tnbc-kg-app-1
 first version
-# 🧠 TNBC Clinical Trials Explorer (Knowledge Graph Subunit)
+# 🧬 TNBC Clinical Trials Knowledge Graph (Subunit)
 
-This is an interactive **Streamlit application** for exploring clinical trials related to **Triple-Negative Breast Cancer (TNBC)** using **Knowledge Graph (KG)** visualizations.
+Welcome to the **TNBC Clinical Trials Subunit**, part of the larger **TNBC Knowledge Graph (KG Genie)** platform. This Streamlit app allows researchers, clinicians, and data scientists to explore **clinical trials**, **biotech/chemical drug classes**, **biomarkers**, and **targeted therapies** related to **Triple-Negative Breast Cancer (TNBC)**.
 
-It is designed as a **modular subunit** for the larger [TNBC KG platform](https://kg-genie-ai-powered-knowledge-graph-for-cancer-research-evzhhj.streamlit.app/), and can be used standalone or integrated into more complex biomedical KG systems.
-
----
-
-## 🚀 Features
-
-- 📊 Visualizes clinical trial relationships (biotech, chemical, other drugs)
-- 🧬 Extracts drug-target-biomarker-pathway relationships
-- 🧠 Displays knowledge graphs (Plotly + PyVis)
-- 📁 Categorizes drugs: Biotech, Chemical, Other
-- 🔍 Filters trials by drug type, biomarker, relation
-- 📦 Export graph views or data
+🔗 **Live App**: [tnbc-clinical-trial-subunit.streamlit.app](https://your-app-url.streamlit.app)
 
 ---
 
-## 📂 Files in This Repo
+## 🧠 What This App Does
 
-| File | Description |
-|------|-------------|
-| `tnbc_clean.py` | Main Streamlit app |
-| `tnbc_kg_triplets_chemical_biotech_other.csv` | Processed KG triplets from TNBC trial data |
-| `requirements.txt` | Python libraries needed to run the app |
-| `README.md` | This file |
+- ✅ Visualizes TNBC-related clinical trial data as a **knowledge graph**
+- ✅ Categorizes trials into **biotech**, **chemical**, and **other therapeutic classes**
+- ✅ Links trials to:
+  - Drug types
+  - Biomarkers (e.g., BRCA1, PD-L1, TROP2)
+  - Clinical phases and outcomes
+- ✅ Supports interactive filtering by:
+  - Drug category
+  - Trial phase
+  - Biomarker
+- ✅ Exports graph images or filtered datasets 📦
 
 ---
 
-## ▶️ How to Run Locally
+## 📂 Files in This Repository
+
+| File                          | Description                                             |
+|-------------------------------|---------------------------------------------------------|
+| `tnbc_clean.py`               | Main Streamlit app script                               |
+| `tnbc_kg_triplets_*.csv`      | Preprocessed triplet-formatted knowledge graph data     |
+| `requirements.txt`            | List of dependencies (for Streamlit Cloud deployment)   |
+| `README.md`                   | This documentation file                                 |
+
+---
+
+## 📊 Dataset Overview
+
+- **Trials Source**: [clinicaltrials.gov](https://clinicaltrials.gov)
+- **Drug Categories**: Biotech, Chemical, Immuno, ADC, Antibody, RNA, etc.
+- **Nodes**: Clinical Trials, Drugs, Conditions, Biomarkers
+- **Relations**: USES, TARGETS, MEASURES, CLASSIFIED_AS
+
+---
+
+## 🚀 How to Run Locally
 
 ```bash
-# Step 1: Clone the repo
-git clone https://github.com/your-username/tnbc-kg-app.git
-cd tnbc-kg-app
+# Clone the repo
+git clone https://github.com/Tamil1818/tnbc-kg-app-1.git
+cd tnbc-kg-app-1
 
-# Step 2: Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-# Step 3: Run the Streamlit app
+# Launch the app
 streamlit run tnbc_clean.py
 
