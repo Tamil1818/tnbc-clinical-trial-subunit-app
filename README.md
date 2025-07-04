@@ -6,11 +6,7 @@ Welcome to the **TNBC Clinical Trials Subunit**, part of the larger **TNBC Knowl
 
 🧬 **Live TNBC Clinical Trials Explorer App**  
 Hosted via Streamlit Cloud  
-🔗 https://tnbc-kg-app-1-5mwj7narjjdddmaawlnylp.streamlit.app  
-(shortlink: https://bit.ly/tnbc-clinical-kg)
-
-📁 Source code: [GitHub Repo](https://github.com/Tamil1818/tnbc-kg-app-1)
-
+🔗 https://tnbc-clinical-trial-subunit-app.streamlit.app
 ## 🧠 What This App Does
 
 - ✅ Visualizes TNBC-related clinical trial data as a **knowledge graph**
